@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+* { font-family: 'poppins';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    height: 100%; 
+    width: 24%; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #f44336; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+.navbar li {
+    color: white;
+    list-style: none;
+    margin-bottom: 8px;
+    margin-left: 30px;
+    font-size: 18px;
+    width: 70%;
+    padding: 5px 15px;
+  }
+  
+.navbar li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-family: "poppins";
+    font-weight: 500;
+  }
+.main {
+    margin-right: 50px;
+    margin-left: 340px;
+    
+}
+.b {
+    color: white;
+    margin-left: 44px;
+    font-size: 23px;
+    font-family: "poppins";
+    font-weight: 600;
+    margin-bottom: 90px;
+    margin-top: 85px;
+}
+
+ ul li:hover {
+    
+    background-color: white;
+} 
+ul li:hover a{
+    color: black;
+    
+}
+.head h1 {
+    color: black;
+    font-size: 64px;
+    margin-top: 60px;
+    font-weight: 500;
+}
+.Gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.Gallery img {
+    width: 426px;
+    opacity: 0.75;
+}
+.Gallery img:hover {
+    opacity: 1;
+}
+h2 {
+    color: #f44336;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+hr {
+    height: 10px;
+    width: 60px;
+    color: #FFFFFF;
+    border: solid 5px red;
+    border-radius: 22px;
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+p {
+    font-size: 15px;
+    display: block;
+    margin-right: 50px;
+    margin-bottom: 5px;
+}
+h4 {
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+.wrapper {
+    display: flex;
+}
+
+.team img{
+    width: 100%;
+    filter: grayscale(0.8);
+}
+.team {
+    background-color: #F1F1F1;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+.bold {
+    font-size: 21px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+.small {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #959393;
+    margin-left: 20px;
+}
+.text {
+    font-size: 16px;
+    margin-left: 20px;
+}
+#table{
+    display: flex;
+    gap: 15px;
+}
+table{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(241, 241, 241);
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+#basic td{
+    border-bottom:solid 1px  rgba(128, 128, 128, 0.119) ;
+    text-align: center;
+}
+#basic th{
+    font-size: x-large;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #717171;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#basic button{
+    background-color: white;
+    color: black;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#basic button:hover{
+    background-color: #717171;
+    color: #ffffff;
+}
+#pro th{
+    font-size: x-large;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #fd0303;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#pro  td{
+    border-bottom:solid 1px rgba(128, 128, 128, 0.119);
+    text-align: center;
+}
+#pro button{
+    background-color: rgb(209, 25, 25);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#pro button:hover{
+    background-color: #717171;
+}
+.price{
+    font-size: xx-large;
+}
+.object{
+    color: #808080;
+}
+.data{
+    height: 8em;
+}
+.Packages > p {
+    margin-bottom: 20px;
+}
+#contact input
+{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #D6D6D6;
+}
+#btn-send
+{
+    margin-top: 10px;
+    background-color: #f40a0a;
+    color: #F1F1F1;
+    font-family: 'Poppins';
+    border: none;
+}
+i {
+    margin-left: 50px;
+    flex-wrap: wrap;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.ctn {
+    margin-bottom: 30px;
+}
+footer {
+  text-align: center;
+  font-size: 125%;
+  margin-top: 70px;
+  background-color: #d0d0d0;
+  padding: 30px 5px;
+  margin-left: 250px;
+}
+.copyright {
+    font-size: 4px;
+    font-family: 'poppins';
+    margin-left: 700px;
+    padding: 0%;
+}
+
